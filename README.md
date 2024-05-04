@@ -16,3 +16,9 @@
 
 Based on the images above, i tried to run `npm i` and everything is already up to date.
 When i tried to `npm start` there is an error that looks exactly same as the one at: https://discord.com/channels/1197393434256875610/1236176452001464330
+
+2. Add some creativities to the webclient.
+
+![error](https://cdn.discordapp.com/attachments/1111642397248598067/1236463063478046842/image.png?ex=66381976&is=6636c7f6&hm=5c0d50549fbe84b4bceb4c7b5ed18d77d07b5108062d701b44dc8fddee4bf4bf&)
+
+I tried to change the color to green.
