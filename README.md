@@ -19,6 +19,6 @@ When i tried to `npm start` there is an error that looks exactly same as the one
 
 2. Add some creativities to the webclient.
 
-![error](https://cdn.discordapp.com/attachments/1111642397248598067/1236463063478046842/image.png?ex=66381976&is=6636c7f6&hm=5c0d50549fbe84b4bceb4c7b5ed18d77d07b5108062d701b44dc8fddee4bf4bf&)
+![green](https://cdn.discordapp.com/attachments/1111642397248598067/1236958265263263824/image.png?ex=6639e6a8&is=66389528&hm=4b01ab144b2ffcf840e8c82e131b54751e3f7380e09dfec1a0a6b836550b97a5&)
 
-I tried to change the color to green.
+I tried to change the color to green. Also, add some styles with Tailwind.

@@ -146,7 +146,8 @@ impl Component for Chat {
                     {
                         self.users.clone().iter().map(|u| {
                             html!{
-                                    <div class="flex m-3 bg-green-600 rounded-lg p-2 text-white">                                    <div>
+                                <div class="flex m-3 bg-green-600 rounded-lg p-2 text-white">
+                                    <div>
                                         <img class="w-12 h-12 rounded-full" src={u.avatar.clone()} alt="avatar"/>
                                     </div>
                                     <div class="flex-grow p-3">
@@ -162,17 +163,16 @@ impl Component for Chat {
                         }).collect::<Html>()
                     }
                 </div>
-                <div class="grow h-screen flex flex-col">
-                    <div class="grow h-screen flex flex-col text-white">
-                    <div class="w-full h-14 border-b-2 border-gray-300"><div class="text-xl p-3">{"💬 Chat!"}</div></div>
+                <div class="grow h-screen flex flex-col text-white">
+                    <div class="w-full h-14 border-b-2 border-gray-300"><div class="text-xl p-3">{"💬 YewChat!"}</div></div>
                     <div class="w-full grow overflow-auto border-b-2 border-gray-300">
                         {
                             self.messages.iter().map(|m| {
                                 let user = self.users.iter().find(|u| u.name == m.from).unwrap();
                                 html!{
-                                    <div class="flex items-end w-3/6 bg-green-600 m-8 rounded-tl-lg rounded-tr-lg rounded-br-lg text-white">                                        <img class="w-8 h-8 rounded-full m-3" src={user.avatar.clone()} alt="avatar"/>
-                                    <img class="w-8 h-8 rounded-full m-3" src={user.avatar.clone()} alt="avatar"/>
-                                    <div class="p-3 text-white">
+                                    <div class="flex items-end w-3/6 bg-green-600 m-8 rounded-tl-lg rounded-tr-lg rounded-br-lg text-white">
+                                        <img class="w-8 h-8 rounded-full m-3" src={user.avatar.clone()} alt="avatar"/>
+                                        <div class="p-3 text-white">
                                             <div class="text-sm">
                                                 {m.from.clone()}
                                             </div>
@@ -188,7 +188,7 @@ impl Component for Chat {
                                 }
                             }).collect::<Html>()
                         }
-
+    
                     </div>
                     <div class="w-full h-14 flex px-3 items-center text-white">
                         <input ref={self.chat_input.clone()} type="text" placeholder="Message" class="block w-full py-2 pl-4 mx-3 bg-gray-100 rounded-full outline-none focus:text-gray-700" name="message" required=true />
