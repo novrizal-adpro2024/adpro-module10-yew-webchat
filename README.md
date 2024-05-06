@@ -8,17 +8,13 @@
 
 **ANS:**
 
-![npmi](https://cdn.discordapp.com/attachments/1111642397248598067/1236458012210757742/image.png?ex=663814c2&is=6636c342&hm=a3df706ba4ea332c1531f3238b1b07db3f8539d7c073dde9018ff4e055c46463&)
-
-![npmstart1](https://cdn.discordapp.com/attachments/1111642397248598067/1236458159325974739/image.png?ex=663814e5&is=6636c365&hm=d5eddb8cb120d585f609f107411a5960d443a465d651989d5f6fcd73130f6dad&)
-
-![npmstart2](https://cdn.discordapp.com/attachments/1111642397248598067/1236458521994985502/image.png?ex=6638153b&is=6636c3bb&hm=b083b65476b183a486b3bfc3397fe84037841058d6d395d76c1ee13995d308f5&)
-
-Based on the images above, i tried to run `npm i` and everything is already up to date.
-When i tried to `npm start` there is an error that looks exactly same as the one at: https://discord.com/channels/1197393434256875610/1236176452001464330
+![terminal](https://cdn.discordapp.com/attachments/1111642397248598067/1236959819311747102/image.png?ex=6639e81a&is=6638969a&hm=9ad6eb3214bbfee4014fbf03d524c6e07eeafd650cebcc89c2e548207796768d&)
+On the image above: terminal run from `Simplewebsocket` and client from `YewChat`.
 
 2. Add some creativities to the webclient.
 
+**ANS:**
+
 ![green](https://cdn.discordapp.com/attachments/1111642397248598067/1236958265263263824/image.png?ex=6639e6a8&is=66389528&hm=4b01ab144b2ffcf840e8c82e131b54751e3f7380e09dfec1a0a6b836550b97a5&)
 
-I tried to change the color to green. Also, add some styles with Tailwind.
+On the image above, I tried to change the color to green. Also, add some styles with Tailwind.
